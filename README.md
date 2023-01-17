@@ -47,15 +47,11 @@ mkinitcpio -p linux
 ```
 bootctl --path=/boot install
 ```
-## Hostname
-```
-hostnamectl set-hostname {hostname}
-```
+## loader.conf
 ```
 cd /boot/loader
 vim loader.conf
 ```
-## loader.conf
 ```
 timeout 5
 default arch
@@ -84,6 +80,10 @@ useradd -m -G wheel,audio -s /bin/fish {username}
 ## NetworkManager
 ```
 systemctl enable NetworkManager
+```
+## Hostname
+```
+hostnamectl set-hostname {hostname}
 ```
 ## Exit,Reboot
 ```
