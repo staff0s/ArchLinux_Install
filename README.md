@@ -27,7 +27,7 @@ mount /dev/sda1 /mnt/boot
 ```
 pacstrap /mnt base base-devel linux linux-firmware networkmanager vim fish
 ```
-##Fstab
+## Fstab
 ```
 genfstab -U /mnt >> /mnt/etc/fstab
 ```
@@ -47,7 +47,7 @@ mkinitcpio -p linux
 ```
 bootctl --path=/boot install
 ```
-##Hostname
+## Hostname
 ```
 hostnamectl set-hostname {hostname}
 ```
