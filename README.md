@@ -27,9 +27,13 @@ mount /dev/sda1 /mnt/boot
 ```
 pacstrap /mnt base base-devel linux linux-firmware networkmanager vim fish
 ```
+##Fstab
+```
+genfstab -U /mnt >> /mnt/etc/fstab
+```
 ## Chroot
 ```
-archchroot /mnt
+arch-chroot /mnt
 ```
 ## Добавить в HOOKS - encrypt
 ```
@@ -43,7 +47,10 @@ mkinitcpio -p linux
 ```
 bootctl --path=/boot install
 ```
-
+##Hostname
+```
+hostnamectl set-hostname {hostname}
+```
 ```
 cd /boot/loader
 vim loader.conf
