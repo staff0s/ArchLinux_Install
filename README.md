@@ -4,8 +4,8 @@
 ```
 cfdisk
 ```
-/dev/sda1 Раздел /boot 512M Type EFI System
-/dev/sda2 Раздел / 100% Type Linux (default)
+#### /dev/sda1 Раздел /boot 512M Type EFI System
+#### /dev/sda2 Раздел / 100% Type Linux (default)
 
 ## Шифрование /
 ```
