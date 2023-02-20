@@ -39,6 +39,7 @@ arch-chroot /mnt
 ```
 vim /etc/mkinitcpio.conf 
 ```
+![Screenshot](https://github.com/staff0s/ArchLinux_Install/blob/main/mkinitcpio.png)
 ## Пересобрать ядро
 ```
 mkinitcpio -p linux
