@@ -1,5 +1,5 @@
 # Установка Arch Linux с полнодисковым шифрованием
-
+![Screenshot](https://github.com/staff0s/ArchLinux_Install/blob/main/logo.png)
 ## Разметка
 ```
 cfdisk
